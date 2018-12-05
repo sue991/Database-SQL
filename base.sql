@@ -10,7 +10,7 @@ CREATE TABLE reservation(
 	check_out DATE,
 	payment_id INT,
 	state INT,
-	memo CHAR(100),
+	memo text,
 	successful INT
 );
 
